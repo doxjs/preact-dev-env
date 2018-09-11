@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "moduleResolution": "node",
+        "jsx": "preserve",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "@common/*": ["src/common/*"],
+            "@/*": ["src/*"],
+            "@components/*": ["src/components/*"],
+            "@pages/*": ["src/pages/*"]
+        },
+        "module": "esnext"
+    },
+    "include": [
+        "./src/**/*",
+        "./src/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
