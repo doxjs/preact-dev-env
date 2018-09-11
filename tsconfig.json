@@ -10,7 +10,8 @@
             "@common/*": ["src/common/*"],
             "@/*": ["src/*"],
             "@components/*": ["src/components/*"],
-            "@pages/*": ["src/pages/*"]
+            "@pages/*": ["src/pages/*"],
+            "@assets/*": ["src/assets/*"]
         },
         "module": "esnext"
     },

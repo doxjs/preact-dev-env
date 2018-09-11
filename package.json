@@ -5,9 +5,9 @@
 	"main": "none",
 	"license": "MIT",
 	"devDependencies": {
-		"@babel/core": "^7.0.0",
 		"awesome-typescript-loader": "^5.2.1",
-		"babel-loader": "^8.0.2",
+		"babel-core": "^6.0.0",
+		"babel-loader": "^7.1.5",
 		"babel-plugin-transform-react-jsx": "^6.24.1",
 		"babel-preset-env": "^1.7.0",
 		"clean-webpack-plugin": "^0.1.19",
